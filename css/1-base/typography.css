@@ -1,0 +1,35 @@
+body {
+    font-family: var(--font-main);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--brand-brown);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    /* Se ajusta solo según la pantalla */
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    color: var(--primary-green);
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--gray-text);
+    margin-bottom: 1.5rem;
+}
+
+.text-highlight {
+    color: var(--primary-green);
+    font-weight: 600;
+}

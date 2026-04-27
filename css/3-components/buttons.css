@@ -1,0 +1,32 @@
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: var(--radius);
+    font-weight: 600;
+    text-align: center;
+    transition: var(--transition);
+    font-size: 0.95rem;
+}
+
+/* Botón principal verde */
+.btn-primary {
+    background-color: var(--primary-green);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-green-hover);
+}
+
+/* Botón pequeño para la card */
+.btn-add {
+    background-color: var(--brand-brown);
+    color: var(--white);
+    padding: 8px 15px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+}
+
+.btn-add:hover {
+    background-color: var(--brand-brown-light);
+}

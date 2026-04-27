@@ -1,0 +1,28 @@
+/**
+ * BURGER FIT - Orquestador de estilos
+ * Proyecto Universitario: Web de Hamburguesas Saludables
+ * * Orden de carga basado en la arquitectura ITCSS/SMACSS:
+ */
+
+/* 1. BASE - Cimientos del sitio */
+@import url("./1-base/variables.css");
+@import url("./1-base/reset.css");
+@import url("./1-base/typography.css");
+
+/* 2. LAYOUT - Estructura global y secciones */
+@import url("./2-layout/main-layout.css");
+@import url("./2-layout/header.css");
+@import url("./2-layout/footer.css");
+
+/* 3. COMPONENTS - Elementos reutilizables */
+@import url("./3-components/buttons.css");
+@import url("./3-components/cards.css");
+@import url("./3-components/floating.css");
+/* @import url("./3-components/forms.css"); */
+/* Descomentar cuando lo creemos */
+
+/* 4. PAGES - Estilos específicos (Actualmente vacío según lo acordado) */
+/* @import url("./4-pages/home.css"); */
+
+/* 5. RESPONSIVE - Media queries finales */
+@import url("./5-responsive/responsive.css");

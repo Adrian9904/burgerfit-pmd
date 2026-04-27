@@ -1,0 +1,19 @@
+.contact-form {
+    background: var(--white);
+    padding: 30px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--brand-brown);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--primary-green) !important;
+}

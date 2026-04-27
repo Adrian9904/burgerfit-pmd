@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú | Burger Fit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo"><a href="../index.html">Burger<span>Fit</span></a></div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="tienda.html" class="nav-link active">Menú</a></li>
+                    <li><a href="nosotros.html" class="nav-link">Nosotros</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button class="menu-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i> </button>
+    </header>
+
+    <main class="container section">
+        <h2 class="text-center">Nuestro Menú Saludable</h2>
+        <div class="products-grid">
+            <article class="card-fit">
+                <div class="card-image">
+                    <span class="badge-fit">🔥 Bajo en grasa</span>
+                    <img src="../img/fit-classic.png" alt="Fit Classic">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Fit Classic</h3>
+                    <p class="card-description">Carne magra, pan integral, lechuga y tomate orgánico.</p>
+                    <div class="card-footer">
+                        <span class="card-price">S/ 22.00</span>
+                        <button class="btn btn-add">Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+            <article class="card-fit">
+                <div class="card-image">
+                    <span class="badge-fit">🥑 Saludable</span>
+                    <img src="../img/chicken-fit.png" alt="Chicken Fit">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Chicken Fit</h3>
+                    <p class="card-description">Pechuga a la plancha, pan integral y palta fresca.</p>
+                    <div class="card-footer">
+                        <span class="card-price">S/ 20.00</span>
+                        <button class="btn btn-add">Agregar al carrito</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <a href="https://wa.me/51999888777" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

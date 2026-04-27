@@ -1,0 +1,28 @@
+:root {
+    /* Colores de Marca - Burger Fit */
+    --primary-green: #1c913e;
+    --primary-green-hover: #146e2f;
+    --brand-brown: #472302;
+    --brand-brown-light: #633204;
+
+    /* Colores de Apoyo */
+    --white: #ffffff;
+    --light-bg: #fdfdfd;
+    --dark-text: #1a1a1a;
+    --gray-text: #666666;
+    --whatsapp-color: #25d366;
+
+    /* Tipografía */
+    --font-main: 'Montserrat', sans-serif;
+
+    /* Dimensiones y Capas */
+    --header-height: 80px;
+    --container-width: 1200px;
+    --z-fixed: 1000;
+    --z-floating: 2000;
+
+    /* Efectos */
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --radius: 12px;
+}

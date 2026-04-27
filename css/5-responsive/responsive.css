@@ -1,0 +1,72 @@
+/* css/5-responsive/responsive.css */
+
+/* Tablet e Inferiores (Menos de 992px) */
+@media (max-width: 992px) {
+    .grid-layout {
+        grid-template-columns: 1fr !important;
+        /* Todo a una columna */
+        text-align: center;
+    }
+
+    .hero-image {
+        order: -1;
+        /* La imagen sube arriba del texto en móvil */
+    }
+
+    .carousel-container {
+        height: 300px;
+        /* Menor altura en móviles */
+    }
+}
+
+/* Celulares (Menos de 768px) */
+@media (max-width: 768px) {
+
+    /* Mostrar el botón de menú */
+    .menu-toggle {
+        display: block;
+        font-size: 1.5rem;
+        color: var(--brand-brown);
+    }
+
+    /* Ocultar el menú original y prepararlo para el despliegue */
+    .nav-menu {
+        position: fixed;
+        top: var(--header-height);
+        right: -100%;
+        /* Escondido a la derecha */
+        width: 80%;
+        height: calc(100vh - var(--header-height));
+        background-color: var(--white);
+        transition: var(--transition);
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Clase que activaremos con JS */
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        padding: 40px;
+        gap: 20px;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    /* Ajuste de Cards en Tienda */
+    .products-grid {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
+
+/* Ocultar botón de menú en escritorio por defecto */
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+    }
+}
